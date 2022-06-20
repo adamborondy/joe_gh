@@ -2,17 +2,15 @@
 % Please edit documentation in R/getDistancePlot.R
 \name{getDistancePlot}
 \alias{getDistancePlot}
-\title{Hello, world!}
+\title{Generate a Plotly Visualization of a Distance Matrix}
 \usage{
-getDistancePlot(distanceMatrix, clusterHierachy, clusterAssignment)
+getDistancePlot(distanceMatrix, clusterAssignment)
 }
 \arguments{
-\item{distanceMatrix}{An input}
+\item{distanceMatrix}{Observations summarized in a distance matrix}
 
-\item{clusterHierachy}{An input}
-
-\item{clusterAssignment}{An input}
+\item{clusterAssignment}{Cluster assignments matching the observations}
 }
 \description{
-Hello, world!
+Generate a Plotly Visualization of a Distance Matrix
 }

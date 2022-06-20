@@ -2,15 +2,15 @@
 % Please edit documentation in R/getClusterAssignment.R
 \name{getClusterAssignment}
 \alias{getClusterAssignment}
-\title{Hello, world!}
+\title{Assign Hard Clusters for Cluster Tree}
 \usage{
 getClusterAssignment(clusterHierachy, nCluster)
 }
 \arguments{
-\item{clusterHierachy}{An input}
+\item{clusterHierachy}{A hierarchical cluster}
 
-\item{nCluster}{An input}
+\item{nCluster}{Number of clusters requested}
 }
 \description{
-Hello, world!
+Assign Hard Clusters for Cluster Tree
 }

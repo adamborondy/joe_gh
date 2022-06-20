@@ -2,7 +2,7 @@
 % Please edit documentation in R/buildHierarchicalCluster.R
 \name{buildHierarchicalCluster}
 \alias{buildHierarchicalCluster}
-\title{Hello, world!}
+\title{Perform Hierarchical Clustering on Data}
 \usage{
 buildHierarchicalCluster(
   dataset,
@@ -11,12 +11,12 @@ buildHierarchicalCluster(
 )
 }
 \arguments{
-\item{dataset}{An input}
+\item{dataset}{An input dataset}
 
-\item{distanceMethod}{An input}
+\item{distanceMethod}{A dsitane method applicable for dist}
 
-\item{linkageMethod}{An input}
+\item{linkageMethod}{A linkage method applicable for hclust}
 }
 \description{
-Hello, world!
+Perform Hierarchical Clustering on Data
 }
